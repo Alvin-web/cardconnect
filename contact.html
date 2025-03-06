@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login with Firebase Authentication and Firestore</title>
+    <link rel="stylesheet" href="/styles.css">
+    <!-- Firebase SDKs -->
+     <script type="module" src="/app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <a href="/index.html"><img class="logo" src="/Logo.svg" alt=""></a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#">Platform</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+      <a href="/contact.html" class="cta">Sign up</a>
+    </header>
+    
+    <form id="loginForm">
+        <h2 class="hh">Create an account</h2>
+        <label for="Name">Full Name</label>
+        <input style="width: 200px;" type="text" id="name" name="name" required><br><br>
+        <label for="email">Email</label>
+        <input style="width: 200px;" type="email" id="email" name="email" required><br><br>
+        <label for="password">Password</label>
+        <input style="width: 200px;" type="password" id="password" name="password" required><br><br>
+        <button id="submit" type="submit">Sign Up</button>
+        <p class="p">Already have an account? <a href="/login.html">Login here</a></p>
+    </form>
+
+    
+
+</body>
+</html>
