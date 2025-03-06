@@ -49,6 +49,7 @@ html {
   
   .nav__links li {
     padding: 2px 20px;
+    margin-top:20px;
     text-align: center;
   }
   
