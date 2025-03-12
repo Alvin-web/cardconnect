@@ -452,7 +452,7 @@ html {
   }
 }
 
-@media (max-width: 450px){
+@media (max-width: 500px){
 html{
  margin: 0 0;
   padding: 0 0;
