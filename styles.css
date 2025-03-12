@@ -23,7 +23,6 @@ html {
     margin-top: 20px;
     box-shadow: 0 4px 15px #00000041;
   }
-
   
   .logo {
     cursor: pointer;
@@ -49,9 +48,7 @@ html {
   }
   
   .nav__links li {
-    padding: 1px 20px;
-    margin-top:10px;
-    text-align: center;
+    padding: 0px 20px;
   }
   
   .nav__links li a {
@@ -203,6 +200,14 @@ html {
   }
 
   .haha{
+    width: 100px;
+    padding-right: 0;
+    margin-right: 0;
+    padding: 0 5px;
+    text-align: center;
+  }
+
+  .haha{
     padding-top: 100px;
   }
 
@@ -220,12 +225,14 @@ html {
     background-color: rgb(151 222 163 / var(--tw-bg-opacity, 1));
     display: block;
     border-radius: 25px;
-    width: 250px;
-    padding: 0 20px;
+    width: 200px;
+    padding: 0 2px;
     margin-left: 550px;
     /* unicode-bidi: isolate; */
     font-weight: normal;
   }
+
+
 
 
 
@@ -302,6 +309,14 @@ html {
 .third-card:hover{
   transform: scale(1.1);
   transition: .3s ease-in;
+}
+
+.third-sec h3{
+  color: white;
+}
+
+.third-sec p{
+  color: white;
 }
 
 .third-sec h2{
@@ -394,6 +409,10 @@ html {
 }
 
 @media (min-width: 768px) {
+    .navbar-toggler{
+      display: none;
+    }
+
   .md\:justify-between {
       justify-content: space-between;
   }
@@ -413,14 +432,14 @@ html {
   align-items: flex-start;
 }
 
-/* .flex-col {
+.flex-col {
   flex-direction: column;
-} */
+}
 
-/* .flex {
+.flex {
   display: flex
 ;
-} */
+}
 
 .text-\[\#eee\] {
   --tw-text-opacity: 1;
@@ -430,5 +449,171 @@ html {
 @media (min-width: 1024px) {
   .lg\:text-\[18px\] {
       font-size: 18px;
+  }
+}
+
+@media (max-width: 550px){
+html{
+ margin: 0 0;
+  padding: 0 0;
+  overflow-x: hidden;
+  width: auto;
+}
+
+
+  body{
+  background-color: #1c1d36;
+  background-image: none;
+  background-position: 5%;
+  padding: 0 0;
+}
+
+.hero-text{
+  margin: 30px;
+}
+
+  header{
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0%;
+    margin: 30px 30px;
+    position: relative;
+    }
+
+    .navbar-toggler{
+      position: absolute
+    }
+
+    .cta{
+      align-items: end;
+      display: flex;
+      position: absolute;
+      float: right;
+      margin-left: 300px;
+    }
+
+    .nav__links{
+      display: none;
+    }
+
+    .hero{
+      height: fit-content;
+      background-color: #1c1d36;  
+    }
+
+    .haha{
+      width: 70px;
+     margin: 0 0;
+    }
+
+    .second-sec .how{
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin: 0 125px;
+      width: 200px;
+
+    }
+
+     
+
+  .logo{
+    margin-left: 0%;
+    font-size: 3rem;
+
+  }
+
+  .hero-button{
+    justify-content: center;
+    display: none;
+  }
+
+  .second-sec{
+    width: 550px;
+    height: fit-content;
+    padding-bottom: 70px;
+  }
+
+  .second-sec svg{
+    display: none;
+  }
+
+  .second-sec h2{
+    margin: 0 0 ;
+    padding: 2px 20px;
+    width: 300px;
+    text-align: center;
+    margin-left: 150px;
+  }
+
+  .third-sec h2{
+    margin: 0 0 ;
+    padding: 2px 20px;
+    text-align: center;
+    margin-left: 150px;
+  }
+
+  .third-sec .flex{
+      margin: 40px;
+      text-align: center;
+  }
+  .third-sec h3 {
+    color: white;
+  }
+
+  .third-sec p{
+    color: white;
+    
+  }
+
+  .first-card{
+    margin-top: 0;
+  }
+  .second-card{
+      margin-top: 20px;
+  }
+  .third-card{
+      margin-top: 20px;
+  }
+  .ggs{
+    display: block;
+    gap: 5;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 35px;
+  }
+
+
+
+
+  footer{
+    width: auto;
+    height: fit-content;
+    margin-top: 150px;
+  }
+
+  footer .flex{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .flex a{
+    padding: 0 10px;
+  }
+
+  form{
+    align-items: center;
+    justify-content: center;
+   width: fit-content;
+   margin: 50px 30px;
+   height: 600px;
+  }
+
+  form h2{
+    text-align: center;
   }
 }
