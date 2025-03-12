@@ -452,12 +452,13 @@ html {
   }
 }
 
-@media (max-width: 300px){
+@media (max-width: 450px){
 html{
  margin: 0 0;
   padding: 0 0;
   overflow-x: hidden;
   width: auto;
+
 }
 
 
@@ -466,30 +467,29 @@ html{
   background-image: none;
   background-position: 5%;
   padding: 0 0;
+  padding-right:20% ;
+  overflow: hidden;
 }
 
 .hero-text{
-  margin: 30px;
+  margin-left: 50px;
 }
 
   header{
     background-color: transparent;
     box-shadow: none;
-    padding: 0%;
-    margin: 30px 30px;
-    position: relative;
+    margin-right: 0px;
+    margin: 20px ;
+   
     }
 
-    .navbar-toggler{
-      position: absolute
-    }
 
     .cta{
       align-items: end;
       display: flex;
       position: absolute;
       float: right;
-      margin-left: 300px;
+     margin-left: 220px;
     }
 
     .nav__links{
@@ -510,7 +510,7 @@ html{
       align-items: center;
       text-align: center;
       justify-content: center;
-      margin: 0 125px;
+      margin: 0 105px;
       width: 200px;
 
     }
@@ -532,6 +532,7 @@ html{
     width: 550px;
     height: fit-content;
     padding-bottom: 70px;
+    
   }
 
   .second-sec svg{
@@ -539,18 +540,17 @@ html{
   }
 
   .second-sec h2{
-    margin: 0 0 ;
     padding: 2px 20px;
     width: 300px;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 35px;
   }
 
   .third-sec h2{
     margin: 0 0 ;
     padding: 2px 20px;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 130px;
   }
 
   .third-sec .flex{
@@ -559,10 +559,12 @@ html{
   }
   .third-sec h3 {
     color: white;
+    padding-left: 80px;
   }
 
   .third-sec p{
     color: white;
+    padding-left: 70px;
     
   }
 
@@ -582,14 +584,14 @@ html{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 35px;
+    margin-left: 10px;
   }
 
 
 
 
   footer{
-    width: auto;
+    width: 450px;
     height: fit-content;
     margin-top: 150px;
   }
